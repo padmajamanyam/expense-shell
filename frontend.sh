@@ -11,7 +11,7 @@ echo -e "\e[36m Download Frontend Application Code \e[0m"
 curl -o /tmp/frontend.zip https://expense-artifacts.s3.amazonaws.com/frontend.zip
 
 echo -e "\e[36m Extract Downloaded Application Content \e[0m"
-cd /usr/share/nginx/html
+
 unzip /tmp/frontend.zip
 
 echo -e "\e[36m Starting Nginx Service \e[0m"
